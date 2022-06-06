@@ -1,0 +1,49 @@
+body{
+    background-image: url('../images/maarten-van-den-heuvel-gZXx8lKAb7Y-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    height: 100vh;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 10px;
+    background-color: black;
+    opacity: 0.8;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 888ms all;
+    -webkit-transition: 888ms all;
+    -moz-transition: 888ms all;
+    -ms-transition: 888ms all;
+    -o-transition: 888ms all;
+}
+ul li a:hover{
+    background-color: deeppink;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
